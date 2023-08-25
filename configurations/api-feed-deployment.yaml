@@ -15,7 +15,7 @@ spec:
         service: api-feed
     spec:
       containers:
-        - image: trieuvi2609/udagram-api-feed:v1
+        - image: trieuvi2609/udagram-api-feed:v2
           name: api-feed
           imagePullPolicy: Always
           resources:
