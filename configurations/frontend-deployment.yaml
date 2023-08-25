@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: trieuvi2609/udagram-frontend:local
+        - image: trieuvi2609/udagram-frontend:v6
           name: udagram-frontend
           imagePullPolicy: Always
           ports:
@@ -24,7 +24,7 @@ spec:
           resources:
             requests:
               memory: "100Mi"
-              cpu: "250m"
+              cpu: "500m"
             limits:
               memory: "200Mi"
               cpu: "500m"

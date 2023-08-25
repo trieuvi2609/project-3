@@ -5,7 +5,7 @@ data:
   AWS_PROFILE: default
   AWS_REGION: us-east-1
   POSTGRES_DB: udacityprj3
-  POSTGRES_HOST: aws-dev-udacity-prj3.cbjimdstiz1p.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: aws-dev-udacity-prj3.cvikd4xyqyn2.us-east-1.rds.amazonaws.com
   URL: http://localhost:8100
 metadata:
   name: env-config
